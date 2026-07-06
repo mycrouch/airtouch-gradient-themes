@@ -1,35 +1,12 @@
 # Gradient Themes
 
-Home Assistant themes with the diagonal gradient card styling from the [AirTouch Card](https://github.com/mycrouch/airtouch-card), in twenty selectable colours.
+Home Assistant themes with diagonal gradient card backgrounds in twenty colours, each available in two variants: **Gradient** (dark, rich tones with white text) and **Pastel** (light, soft tones with dark text). Forty themes in total.
 
-| Theme | Gradient |
-|---|---|
-| Gradient Blue | deep navy - blue |
-| Gradient Sky | navy - sky blue |
-| Gradient Cyan | dark teal - cyan |
-| Gradient Teal | slate blue - teal |
-| Gradient Emerald | deep green - emerald |
-| Gradient Green | forest - green |
-| Gradient Lime | olive - lime |
-| Gradient Gold | bronze - gold |
-| Gradient Amber | dark bronze - amber |
-| Gradient Orange | umber - orange |
-| Gradient Red | dark ember - orange red |
-| Gradient Crimson | oxblood - crimson |
-| Gradient Pink | plum - pink |
-| Gradient Magenta | aubergine - magenta |
-| Gradient Purple | deep violet - purple |
-| Gradient Violet | midnight - violet |
-| Gradient Indigo | navy - indigo |
-| Gradient Midnight | near-black - midnight blue |
-| Gradient Steel | charcoal - steel blue |
-| Gradient Slate | graphite - slate grey |
-
-Every card gets the gradient background with white text, tuned icon/slider/toggle colours, no borders and a soft shadow — the whole dashboard takes on the AirTouch console look. Each theme also exposes the raw gradient as `--card-gradient` for reuse in card-mod or custom cards.
+Every card gets the gradient background with matched text, icon, slider and toggle colours, no borders and a soft shadow. Colours: Blue, Sky, Cyan, Teal, Emerald, Green, Lime, Gold, Amber, Orange, Red, Crimson, Pink, Magenta, Purple, Violet, Indigo, Midnight, Steel, Slate — as `Gradient <Colour>` (dark) and `Pastel <Colour>` (light). Each theme also exposes the raw gradient as `--card-gradient` for reuse in card-mod or custom cards.
 
 ## Installation
 
-1. HACS → menu (⋮) → **Custom repositories** → add `https://github.com/mycrouch/airtouch-gradient-themes`, category **Theme**.
+1. HACS → menu (⋮) → **Custom repositories** → add `https://github.com/mycrouch/gradient-themes`, category **Theme**.
 2. Download **Gradient Themes**, then reload themes (Developer Tools → YAML → Themes) or restart HA.
 3. Requires `frontend: themes: !include_dir_merge_named themes` in `configuration.yaml` (already present if you use any HACS theme).
 
